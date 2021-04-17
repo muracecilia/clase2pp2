@@ -1,7 +1,7 @@
 <?php   
     
 	$mes=rand(1,12);
-	echo "El mes es: ".$mes "<br>";
+	echo "El mes es: ".$mes . "<br>";
 
 	if($mes>=4 && $mes<=6){
 		echo "Estamos en Otoño";
