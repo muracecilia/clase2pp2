@@ -6,7 +6,7 @@
 		echo "es menor de edad";
 	}
 	else{
-		echo "es mayor de edad"
+		echo "es mayor de edad";
 	}
 
 ?>
