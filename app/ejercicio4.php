@@ -8,12 +8,20 @@
 	echo "El segundo numero es: ". $numero2 . "<br>";
 	echo "El tercer numero es: ". $numero3 . "<br><br>";
 	
-	if($numero1>$numero2 && $numero1>$numero3){
+	if($numero1>$numero2 && $numero1>$numero3)
+	{
 		echo "El mayor es: ".$numero1."<br>";
-	}elseif ($numero2>$numero3) {
-		echo "El mayor es: ".$numero2."<br>";
-	}else{
-		echo "El mayor es: ".$numero3."<br>";
+	}
+	else 
+	{
+		if ($numero2>$numero3) 
+		{
+			echo "El mayor es: ".$numero2."<br>";
+		}
+		else
+		{
+			echo "El mayor es: ".$numero3."<br>";
+		}
 	}
 
 ?>
