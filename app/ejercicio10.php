@@ -3,7 +3,8 @@
 	
 $numero=15;	
 
-for($todos=0;$todos<=$numero;$todos++){
+for($todos=0;$todos<=$numero;$todos++)
+{
 	$numeroIngresado=$todos;
 
 	for($numeroAnterior=2;$numeroAnterior<$numeroIngresado;$numeroAnterior++)
